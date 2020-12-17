@@ -5,6 +5,7 @@
 h1, h2, h3 {
     font-size: inherit;
     text-align: center;
+    color: hsl(229, 23%, 23%);
 }
 
 body {
@@ -64,8 +65,42 @@ body {
 
 .user-infos {
     position: absolute;
-    bottom: 28px;
+    bottom: 26px;
     width: 100%;
+}
+
+h1.user {
+    margin: 0 0 13px;
+}
+
+h1.user span.age {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    margin-left: 5px;
+}
+
+h2.location {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.statistics .number {
+    margin: 26px 0 0;
+}
+
+.statistics .tag {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 46%);
+    margin: 7px 0 26px;
 }
 
 .attribution {
